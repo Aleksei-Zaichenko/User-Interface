@@ -95,37 +95,29 @@ header {
 }
 
 #secondGroup {
-	margin: 8%;
+	margin: 8% 5%;
 }
 
 #secondGroup div{
 	width:49%;
 	display: inline-block;
-	border: black 1px solid;
-	/*margin-right: 7%;*/
-}
-
-button{
-	padding: 2px 60px;
-	background-color: white;
-  	color: black;
-	border: 1px solid black;
-	margin-left: 22%;
-	padding: 1.9% 11%;
-}
-
-#ButtonButton {
-	border: black 1px solid;
-	margin-left: 10%;
-	padding-left: 9%;
-	padding-bottom: 40%;
 }
 
 h1 {
 	margin-right: 19%;
-	margin-bottom: 20%;
 	font-size: 77px;
 	text-align: center;
+}
+
+button{
+	background-color: white;
+	border: 1px solid black;
+	margin-left: 20%;
+	padding: 1.9% 12%;
+}
+
+#helper{
+	margin-top:10%;
 }
 
 #thirdGroup .FeaturesAndAbout, .codeImage, .ServicesProducesVision {
