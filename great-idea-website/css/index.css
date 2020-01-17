@@ -66,14 +66,12 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 body {
-	border: black 1px solid;
 	margin: 0 auto;
 	width: 50%;
 	padding-top: 2%;
 }
 
 .firstGroup div{
-	border: black 1px solid;
 	display: inline-block;
 	width: 23%;
 }
@@ -87,7 +85,7 @@ body {
 }
 
 header {
-	border: black 1px solid;
+	border-bottom: black 1px solid;
 }
 
 #leftSide nav a {
@@ -97,20 +95,14 @@ header {
 }
 
 #secondGroup {
-	display: inline-block;
-	border: black 1px solid;
 	margin: 8%;
 }
 
 #secondGroup div{
-	border: black 1px solid;
+	width:49%;
 	display: inline-block;
-	width:46%;
+	border: black 1px solid;
 	/*margin-right: 7%;*/
-}
-
-.InnovationAndButton div {
-	margin-bottom: 5%;
 }
 
 button{
@@ -118,49 +110,47 @@ button{
 	background-color: white;
   	color: black;
 	border: 1px solid black;
+	margin-left: 22%;
+	padding: 1.9% 11%;
 }
 
 #ButtonButton {
 	border: black 1px solid;
-	/*margin-left: 10%;
+	margin-left: 10%;
 	padding-left: 9%;
 	padding-bottom: 40%;
-	padding-bottom: 40%;*/
 }
 
 h1 {
-	border: black 1px solid;
-	/*margin-right: 15%;
-	margin-bottom: 20%;*/
+	margin-right: 19%;
+	margin-bottom: 20%;
 	font-size: 77px;
 	text-align: center;
 }
 
 #thirdGroup .FeaturesAndAbout, .codeImage, .ServicesProducesVision {
-	border: black 1px solid;
 	margin-top: 3.5%;
 }
 
 #thirdGroup {
 	margin-bottom: 4.5%;
+	border-bottom: black 1px solid;
 }
 
 #thirdGroup .FeaturesAndAbout div {
-	border: black 1px solid;
 	display: inline-block;
 	width: 45%;
 	margin-right: 2%;
 }
 #thirdGroup .codeImage{
-	border: black 1px solid;
 	width: 100%
 }
 
 #thirdGroup .ServicesProducesVision div{
-	border: black 1px solid;
 	display: inline-block;
 	width: 30%;
 	margin-right: 1.3%;
+	margin-bottom: 4%;
 }
 
 h6{
